@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 20px;
+}
+
+.logo img {
+    width: 80px;;
+    height: 20px;
+}
+
+.reebok {
+    margin-left:50px;
+    right:120px;
+    padding: 22px;
+    margin-bottom:40px;
+    margin-top: -50px;
+}
+
+.names {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pct-details h {
+  font-size: 22px;
+  margin-bottom: 10px;
+
+}
+
+.sizes {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+}
+.sizes button {
+  display: inline-block;
+        padding: 15px 25px;
+        background-color: #53579c;
+}
+.sizess  button{
+  margin-bottom: 150px;
+}
+
+.color  h6 {
+  padding-bottom: 40px;
+}
+
+
+
