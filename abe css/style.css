@@ -99,6 +99,45 @@ H4 {
         text-transform: uppercase;
         font-weight: bold;
     }
-    .container {
-      background-color: E5E6F8;
+
+    .footer-container {
+     background-color: red;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 40px;
     }
+
+    .footer-container h6 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .footer-container ul {
+      list-style: none;
+      padding: 0;
+      margin: 30px;
+      
+    }
+
+    .footer-container ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-container ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+    }
+
+    .footer-container ul li a:hover {
+      text-decoration: underline;
+}
+
+.red {
+  margin-left: 20px;;
+}
+.sandal {
+  margin-left: 30px;
+  color: red;
+}
