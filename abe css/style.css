@@ -1,10 +1,10 @@
 body {
-    background-color: azure;
+    background-color: rgb(253, 253, 253);
 }
 
 
 .container-fluid{
-    background-color: #ff1100
+    background-color: #080808
 }
 .logo img {
     width: 80px;;
@@ -95,7 +95,7 @@ H4 {
     .tombol button{
         display: inline-block;
         padding: 15px 25px;
-        background-color: #E5E6F8;
+        background-color: #ffffff;
         color: #000000;
         text-decoration: none;
         border-radius: 10px;
@@ -113,37 +113,81 @@ H4 {
 }
 
 .footer {
-  background: #000;
-  color: white;
-  padding: 40px 20px;
-  margin: 30px;
-}
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 
-.footer-container {
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0; /* beri sedikit padding atas & bawah agar tidak terlalu rapat */
+  }
+
+  .footer1 h6 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .footer1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
+
+  .footer1 ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .footer1 ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Landing Section */
+.landing-section {
   display: flex;
-  justify-content: space-around;
-  max-width: 1100px;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebf9;
+  padding: 80px 20px;
+  gap: 60px; /* jarak antar elemen */
 }
 
-.footer-1 h6{
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 15px;
+.gbr img {
+  height: 250px;
+  width: auto;
+  display: block;
 }
 
-.footer1 ul {
-  list-style: disc;
-  padding-left: 20px;
+.gbr.kiri {
+  transform: translateY(40px); /* sandal kiri agak turun */
 }
 
-.footer1 ul li {
-  margin-bottom: 8px;
+.gbr.kanan {
+  transform: translateY(-40px); /* sandal kanan agak naik */
 }
 
-.footer1 ul li a {
-  color: white;
-  text-decoration: underline;
-  font-size: 14px;
+.judul {
+  text-align: center;
 }
 
+.judul h3 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.judul .red {
+  color: red;
+}
