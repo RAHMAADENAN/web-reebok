@@ -168,11 +168,19 @@ H4 {
 }
 
 .gbr.kiri {
+<<<<<<< HEAD
   transform: translateY(40px); 
 }
 
 .gbr.kanan {
   transform: translateY(-40px);
+=======
+  transform: translateY(40px); /* sandal kiri agak turun */
+}
+
+.gbr.kanan {
+  transform: translateY(-40px); /* sandal kanan agak naik */
+>>>>>>> f2e2645e07d363da46f54e3c01b75f29285cd886
 }
 
 .judul {
